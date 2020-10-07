@@ -23,7 +23,7 @@ const {
 const relayHubAbi = require('./IRelayHub');
 const relayRecipientAbi = require('./IRelayRecipient');
 
-const relay_lookup_limit_blocks = 6000;
+const relay_lookup_limit_blocks = 4600000;
 abi_decoder.addABI(relayHubAbi);
 
 // default timeout (in ms) for http requests
